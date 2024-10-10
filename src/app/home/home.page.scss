@@ -1,0 +1,122 @@
+ion-segment{
+  margin-top: 20px;
+ }
+
+ .segment{
+   padding: 30px 5px;
+ }
+ 
+ .submit{
+   height: 44px;
+   --border-radius: 10px;
+   --background: var(--ion-color-tertiary);
+ }
+ 
+ .scan-label{
+   margin: 25px 0;
+ }
+ 
+ img{
+   width: 200px;
+ }
+ 
+ .result{
+   color: black;
+   border: 1px dashed var(--ion-color-medium);
+   border-radius: 10px;
+   margin: 30px 0;
+ 
+   p{
+     color: var(--ion-color-tertiary);
+     margin-bottom: 5px;
+     font-size: 11px;
+   }
+ 
+   h6{
+     margin-top: 0;
+   }
+ }
+ 
+ ion-button {
+  --background: #6200EA;  // Color púrpura para hacer que resalte
+  --border-radius: 10px;
+  --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  --color: white;
+  --padding-start: 20px;
+  --padding-end: 20px;
+  font-size: 1.1em;
+}
+
+ion-button:hover {
+  --background: #3700B3;  // Un color un poco más oscuro al pasar el mouse
+}
+ 
+ ion-textarea{
+   --highlight-color-valid: var(--ion-color-tertiary);
+   text-align: start;
+ }
+ 
+ #qrImage {
+  border: 4px solid #6200EA;  // Borde con color similar a los botones
+  padding: 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1); // Sombra suave
+  border-radius: 12px;  // Bordes redondeados
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+ 
+ .qr-wrapper{
+   width: 230px; 
+   min-height: 230px;
+   background: var(--ion-color-tertiary); 
+   border-radius: 20px;
+ }
+ 
+ .qr-placeholder{
+   width: 60px; 
+ }
+ 
+ .d-flex-center{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ #tema{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: white; 
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  border: none;
+  z-index: 10; 
+  cursor: pointer;
+}
+ion-header {
+  background-color: #6200EA; // Un color púrpura vibrante
+  color: white;
+  ion-toolbar {
+    --padding-start: 10px;
+    --padding-end: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+}
+.scan-result {
+  background-color: #EDE7F6;  // Un color de fondo suave
+  border-left: 4px solid #6200EA;
+  padding: 15px;
+  margin-top: 20px;
+  font-size: 1.1em;
+  color: #333;
+}
+body {
+  font-family: 'Roboto', sans-serif;  // Usa la fuente de Google Fonts
+  font-size: 16px;
+  color: #333;
+}

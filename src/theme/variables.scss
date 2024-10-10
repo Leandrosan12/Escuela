@@ -1,0 +1,24 @@
+:root{
+    --fondo: #99aac9;
+    --icono: #45c2f3;
+    --fondo-input: #ffffff;
+    --textos: #000000;
+    --icono-tema: #cfcfcf;
+    
+}
+
+body.barcode-scannig-activate{
+    visibility: hidden;
+    --background: transparent;
+    --ion-background-color:transparent;
+}
+.barcode-scanning-modal{
+    visibility: visible;
+}
+@media(prefers-color-sheme:dark){
+    barcode-scannig-activate{
+        visibility: hidden;
+        --background: transparent;
+        --ion-background-color:transparent;
+    }
+}
